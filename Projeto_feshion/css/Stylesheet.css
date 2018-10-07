@@ -1,0 +1,90 @@
+/* Style do site*/
+body{
+	margin: 0;
+	font-family: "DejaVu Sans Condensed";
+}
+/* Parte das imagens */
+main{
+	height: 100%;
+}
+.imagem-Superior{
+	background-color: #101F29;
+	padding-bottom: 20px;
+	border-top: solid 1px transparent;
+}
+.imagem-sub img{
+	width: 100%;
+}
+.logo-superior img{
+	position: absolute;
+	top: 30px;
+	left: 26%;
+	width: 9%;
+}
+/* Parte dos conteudos */
+
+.lista-superior ul{
+	text-align: right;
+	padding: 32px 98px 0 0;
+	word-spacing: 20px;
+
+}
+.lista-superior li{
+	list-style: none;
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+/* Parte dos hover */
+
+.lista-superior a{
+	color: white;
+	text-decoration: none;
+}
+.lista-superior a:hover{
+	font-size: 19px;
+	transition-duration: 1s;
+	color: rgba(0,0,0, 0.4);
+}
+/* Texto NO centro */
+
+.texto-centro{
+	padding: 30px;
+	text-align: center;
+	color: black;
+}
+
+.texto-centro h1{
+	font-size: 39px;
+}
+.texto-centro p{
+	width: 46.5%;
+	padding-left: 26.9%;
+	/*height: 80%;*/
+}
+
+/* Card */
+.imagens-card{
+	position: absolute;
+	left: 28.8%;
+}
+.card{
+	margin-left: 15px;
+	float: left;
+}
+.card h2{
+	letter-spacing: 3px;
+	text-align: center;
+	font-size: 99%;
+}
+.card p{
+	text-align: center;
+}
+.imagem-bg img{
+	background-image: url("/imagens/bg_detalhe.png");
+	/*position: absolute;
+	top: 200%;
+	width: 100%;
+	height: 500px;
+	clear: both;*/
+}
